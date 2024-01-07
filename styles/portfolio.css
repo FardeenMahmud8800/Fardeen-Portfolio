@@ -1,7 +1,12 @@
 /* shared style */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+
 }
 .text-primary{
     color: #0092ca;
@@ -50,6 +55,16 @@ nav a{
     padding: 30px 30px 0px 150px;
     justify-content: space-between;
     margin-left: 100px;
+}
+.btn-contact{
+    background-color: #393e4698;
+    border-color: #0092ca;
+    color: #0092ca;
+    border-width: 6px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 .banner-content{
     max-width: 500px;
@@ -113,13 +128,22 @@ main{
     margin-left: 40px;
     
     
+
 }
-.section-description-1{
-    text-align: center;
-    font-size: 35px;
-}
+/* skills related styles */
+
 #skill-description{
     padding: 30px 150px;
-    font-size: 18px;
-    text-align: center;
+    margin-bottom: 80px;
+    
+}
+.skills-container{
+    display: flex;
+}
+skills{
+    padding: 30px;
+    gap: 24px;
+}
+.skill-description {
+    
 }
