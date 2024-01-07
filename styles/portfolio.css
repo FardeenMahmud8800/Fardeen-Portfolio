@@ -139,10 +139,14 @@ main{
 }
 .skills-container{
     display: flex;
-}
-skills{
-    padding: 30px;
     gap: 24px;
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0 0.06);
+    
 }
 .skill-description {
     
