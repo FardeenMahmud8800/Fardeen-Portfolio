@@ -106,5 +106,20 @@ main{
     text-align: center;
 }
 .info-title{
+    margin-left: 40px;
     font-style: normal;
+}
+.info-description{
+    margin-left: 40px;
+    
+    
+}
+.section-description-1{
+    text-align: center;
+    font-size: 35px;
+}
+#skill-description{
+    padding: 30px 150px;
+    font-size: 18px;
+    text-align: center;
 }
