@@ -170,10 +170,24 @@ main section{
     margin-left: 50px;
 }
 /* Resume Section Styles */
-
+.section-title, .resume-column-title{
+    margin-bottom: 50px;
+}
 .resume-column-title{
     color:#474746;
     font-size: 30px;
     font-weight: 700;
     line-height: normal;
+    
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-container{
+    display: flex;
+    gap: 80px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
