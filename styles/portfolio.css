@@ -10,6 +10,7 @@ body{
 }
 .text-primary{
     color: #0092ca;
+    
 }
 .btn-primary{
     background-color: #0092ca;
@@ -30,6 +31,7 @@ nav{
 .nav-title{
     font-size: 45px;
     font-weight: 800;
+    
 }
 nav>ul{
     display: flex;
@@ -48,6 +50,7 @@ nav a{
 
 .header{
     background-color:  #393e46ce;
+
 }
 .banner{
     display: flex;
@@ -195,7 +198,26 @@ main section{
 /* Footer Styles */
 footer{
     display: flex;
+    gap: 100px;
     background: #393e46;
     padding: 130px 200px;
     margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+.queryform input[type='text'], .queryform input[type='email'], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #393e46;
+    border-radius: 5px;
+    border: 0;
+    background-color: white;
+    width: 100%;
+
+}
+.social-links a{
+    margin-right: 25px;
 }
