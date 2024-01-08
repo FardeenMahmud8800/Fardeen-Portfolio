@@ -191,3 +191,11 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+
+/* Footer Styles */
+footer{
+    display: flex;
+    background: #393e46;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
