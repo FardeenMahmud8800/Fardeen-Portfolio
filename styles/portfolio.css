@@ -156,7 +156,7 @@ main section{
     margin: 20px 30px;
 }
 .skills-container{
-    display: flex;
+    display: block;
     gap: 24px;
 }
 .skills{
@@ -172,6 +172,7 @@ main section{
 .imglogo{
     margin-left: 50px;
 }
+
 /* Resume Section Styles */
 .section-title, .resume-column-title{
     margin-bottom: 50px;
